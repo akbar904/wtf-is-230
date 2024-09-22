@@ -8,7 +8,7 @@ class TextCubit extends Cubit<TextState> {
 
 	void toggleText() {
 		if (state.text == 'Cat') {
-			emit(TextState('Dog', Icons.person));
+			emit(TextState('Bird', Icons.flight));
 		} else {
 			emit(TextState('Cat', Icons.access_time));
 		}
